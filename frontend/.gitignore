@@ -1,23 +1,19 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Node.js dependencies
 /node_modules
-/.pnp
-.pnp.js
 
-# testing
+# Test coverage reports
 /coverage
 
-# production
+# Production build outputs
 /build
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Generated files (e.g., TypeScript)
+**/*.generated.tsx
+**/*.generated.ts
+**/*.generated.json
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# IDE/editor configurations
+/.vscode
+
+# IntelliJ IDEA project files
+.idea/
