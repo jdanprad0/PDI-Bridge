@@ -1,0 +1,3 @@
+*.generated.tsx
+*.generated.ts
+*.generated.json
